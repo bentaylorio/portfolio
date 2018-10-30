@@ -1,0 +1,115 @@
+@import 'reset'
+@import 'bulma'
+
+//Variables
+$main: #31CF65
+$white: #EAE0D6
+$black: #2B2621
+$heart: #D50338
+
+body
+  color: $black
+  font-size: 1rem
+  font-weight: 400
+  line-height: 1.5
+
+._next
+  width: 100%
+
+.hero.is-fullheight
+  min-height: 100vh
+
+.hero.is-success  
+  background-color: $main
+  color: $black
+
+.navbar-brand
+  align-items: stretch
+  display: flex
+  flex-shrink: 0
+  min-height: 3.25rem
+
+.is-flex
+  display: flex
+
+.navbar-brand.is-flex
+  width: 100%
+
+.navbar-brand.is-flex a
+  padding: .5em
+  margin: .5em
+
+.container.is-fluid.has-text-centered .subtitle
+  color: $black
+
+.logo-rotate
+  height: 100%
+  cursor: pointer
+  -webkit-filter: drop shadow(0 10px 8px rgba(0,0,0,.3))
+  filter: drop shadow(0 10px 8px rgba(0,0,0,.3))
+  margin: 0 auto 1.2rem
+
+
+.logo-rotate:hover
+  transform: rotate(9deg) scale(1.18)
+  -ms-transform: rotate(9deg) scale(1.18)
+  -webkit-transform: rotate(9deg) scale(1.18)
+  transition: 250ms ease
+  -webkit-transition: 250ms ease
+
+.section
+  background-color: $main
+
+.bmt-portrait
+  position: relative
+  z-index: 100
+  margin: 0 auto -108px
+  width: 192px
+  height: 192px
+  background-image: url('../img/IMG_2020.jpg')
+  background-size: cover
+  border: 2px solid white
+  border-radius: 100%
+
+.bmt-heading-title
+  font-size: 2.5em
+
+.bmt-para
+  font-size: 1.3em
+
+.tile.is-ancestor
+  max-width: 1024px
+  margin: 0 auto
+  z-index: 90
+
+.column svg
+  margin: 30px
+
+.bmt-dev
+  font-size: 2em
+
+.bmt-comfy
+  font-size: 1.45em
+
+.bmt-column-heading
+  font-size: 1.8em
+
+.bmt-list-item
+  font-size: 1.4em
+
+.bmt-works
+  padding-top: 40px
+
+.portfolio
+  margin-top: 20px
+
+.buttons
+  margin-top: 25px
+  margin-bottom: 10px
+
+.email
+  margin-left: 8px
+
+.heart
+  color: $heart
+  font-size: 1.5em
